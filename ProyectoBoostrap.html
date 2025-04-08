@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Magic´s burger</title>
-<link rel="stylesheet" href="bootstrap.min (2).css">
+<link rel="stylesheet" href="bootstrap.min.css">
 </head>
 
 <body class="bg-dark text-white">
@@ -45,15 +45,63 @@
   </nav>
 
   <!-- Portada -->
-  <section id="home" class="d-flex justify-content-center align-items-center"
-    style="background-image: url('https://via.placeholder.com/1500x800'); background-size: cover; height: 100vh; color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">
-    <div class="text-center">
+  <section id="home" class="d-flex justify-content-center align-items-center">
+    <div class="text-center ">
 
-      <h1 class="display-3">¡Bienvenido a Magic's Burger!</h1>
+      
+      
+      <!-- Sección de Noticias en portada -->
+      <div class="container mt-5 bg-dark bg-opacity-75 p-4 rounded">
+        <h2>Novedades</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card bg-dark text-white mb-3">
+              <div class="card-body">
+                <h5 class="card-title">¡Nueva Hamburguesa Ganadora!</h5>
+                <p class="card-text">Presentamos nuestra nueva creación galardonada: "La Mágica Deluxe".</p>
+                <img src="img/burguer8.jpeg" class="img-fluid rounded" alt="Nueva hamburguesa">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card bg-dark text-white mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Horario Extendido</h5>
+                <p class="card-text">Ahora abrimos hasta más tarde los fines de semana para que disfrutes de nuestras burgers.</p>
+                <img src="img/burguer1.PNG" class="img-fluid rounded" alt="Local">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-      <p class="lead">Las mejores hamburguesas de la ciudad, preparadas con amor y los ingredientes más frescos.</p>
-      <a href="#menu" class="btn btn-danger btn-lg">Ver Menú</a>
+    </div>
+  </section>
 
+  <!-- Sección Sobre Nosotros -->
+  <section id="sobre-nosotros" class="container py-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Sobre Magic's Burger</h2>
+        <p>Fundada en 2015, Magic's Burger nació de la pasión por crear hamburguesas únicas con ingredientes de la más alta calidad. Nuestro chef, con más de 15 años de experiencia, ha creado recetas que deleitan a nuestros clientes día tras día.</p>
+        <p>Utilizamos carne 100% de ternera gallega, pan artesano horneado diariamente y productos locales para garantizar el mejor sabor en cada bocado.</p>
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-6 mb-3">
+            <img src="img/burguer1.PNG" class="img-fluid rounded" alt="Equipo">
+          </div>
+          <div class="col-6 mb-3">
+            <img src="img/burguer2.PNG" class="img-fluid rounded" alt="Local">
+          </div>
+          <div class="col-6">
+            <img src="img/burguer3.PNG" class="img-fluid rounded" alt="Ingredientes">
+          </div>
+          <div class="col-6">
+            <img src="img/burger4.jpeg" class="img-fluid rounded" alt="Preparación">
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -61,21 +109,40 @@
   <section id="blog" class="container py-5">
     <div class="row">
       <div class="col-md-12">
-        <h2>Noticias</h2>
-        <p>Descubre nuestras novedades, promociones y eventos. ¡No te pierdas lo que está por venir!</p>
+        <h2>Últimas Noticias</h2>
       </div>
     </div>
 
-
     <div class="row">
-      <div class="col-12">
-        <video src="https://burgerfoodporn.com/wp-content/uploads/2024/09/VIDEO-web-bfp-2024-1.mp4" autoplay loop muted
-          class="w-100" alt="Video de Noticias"></video>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="img/burguer5.jpeg" class="card-img-top" alt="Noticia 1">
+          <div class="card-body">
+            <h5 class="card-title">Premio a la Mejor Burger 2023</h5>
+            <p class="card-text">Nuestra hamburguesa "Winner 2023" ha sido galardonada como la mejor hamburguesa artesanal de la región.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="img/burguer7.jpeg" class="card-img-top" alt="Noticia 2">
+          <div class="card-body">
+            <h5 class="card-title">Nuevas Opciones Veganas</h5>
+            <p class="card-text">Ampliamos nuestro menú con 3 nuevas opciones veganas para satisfacer a todos nuestros clientes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="img/burguer7.jpeg" class="card-img-top" alt="Noticia 3">
+          <div class="card-body">
+            <h5 class="card-title">Noche de Hamburguesas Especiales</h5>
+            <p class="card-text">Todos los jueves por la noche ofrecemos creaciones especiales del chef a precio promocional.</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-
-
 
   <!-- Galería con Carrusel -->
   <section id="galeria" class="container py-5">
@@ -164,7 +231,7 @@
   <!-- Catálogo con tarjetas -->
   <section id="menu" class="container py-5">
     <h2 class="text-center">Menú</h2>
-    <div class="row text-center">
+    <div class="row text-center ">
       <div class="col-md-4 mb-4">
         <div class="card">
           <img src="img/burguer1.PNG" class="card-img-top" alt="Hamburguesa clásica">
@@ -224,7 +291,7 @@
           <img src="img/burguer7.jpeg" class="card-img-top" alt="Hamburguesa Veggie">
           <div class="card-body">
             <h5 class="card-title">Kika</h5>
-            <p class="card-text">Para los veganos</p>
+            <p class="card-text">Tambien pensamos en los veganos :)</p>
           </div>
         </div>
       </div>
@@ -251,13 +318,13 @@
 
   <!-- Tabla de Datos -->
   <section id="tabla" class="container py-5">
-    <h2 class="text-center">Tabla de Datos</h2>
-    <table class="table">
+    <h2 class="text-center">Precios</h2>
+    <table class="table table-hover">
       <thead>
         <tr>
           <th scope="col">Producto</th>
           <th scope="col">Precio</th>
-          <th scope="col">Cantidad</th>
+          <th scope="col">Disponible</th>
         </tr>
       </thead>
       <tbody>
@@ -307,6 +374,11 @@
           <td>20</td>
         </tr>
       </tbody>
+      
+        <tr>
+          <td colspan="2" class="text-first">Todos los precios incluyen IVA</td>
+          <td></td>
+        </tr>
     </table>
   </section>
 
