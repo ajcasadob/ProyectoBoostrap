@@ -23,67 +23,73 @@
     .fondo-oscurecido {
       background-color: rgba(0, 0, 0, 0.85);
     }
-
   </style>
 
 </head>
 <!--REPASAR COLORES-->
+
 <body class=" text-white">
 
   <div class="fondo-oscurecido">
-  <!-- Navegación -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark border border-0">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="./img/magic.jpg" width="60px" height="60px" alt="Magic burguers" class="rounded-circle">
-      </a>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border border-0">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./img/magic.jpg" width="60px" height="60px" alt="Magic burguers" class="rounded-circle">
+        </a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link text-white" aria-current="page" href="#home"><i class="bi bi-house-door"></i> Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#menu"><img src="img/one-hamburguer-svgrepo-com(1).svg" alt="Descripción del SVG" class="pb-1" width="16px"> Menú</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#galeria"><i class="bi bi-image"></i> Galería</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#contacto"><i class="bi bi-telephone-inbound"></i> Contacto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#login" data-bs-toggle="modal" data-bs-target="#loginModal"><i class="bi bi-box-arrow-in-right"></i> Iniciar sesión</a>
-          </li>
-        </ul>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" aria-current="page" href="#home"><i class="bi bi-house-door"></i>
+                Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#menu"><img src="img/one-hamburguer-svgrepo-com(1).svg"
+                  alt="Descripción del SVG" class="pb-1" width="16px"> Menú</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#galeria"><i class="bi bi-image"></i> Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contacto"><i class="bi bi-telephone-inbound"></i> Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#login" data-bs-toggle="modal" data-bs-target="#loginModal"><i
+                  class="bi bi-box-arrow-in-right"></i> Iniciar sesión</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-
-  <!-- Portada -->
-  <section id="home" class="d-flex justify-content-center align-items-center">
-    <div class="text-center ">
+    </nav>
 
 
+    <!-- Portada -->
+    <section id="home" class="d-flex justify-content-center align-items-center">
+      <div class="text-center ">
 
-      <!-- Sección de Noticias en portada -->
-      <div class="container mt-5 p-4 rounded">
-        <h2>Novedades</h2>
-        <div class="row d-flex justify-content-between">
-          
+
+
+        <!-- Sección de Noticias en portada -->
+        <div class="container mt-5 p-4 rounded">
+          <h2>Novedades</h2>
+          <div class="row d-flex justify-content-between">
+
             <div class="card text-white h-auto col-md-5">
               <div class="card-body h-100 d-flex flex-column justify-content-between m-0 p-0 py-3">
                 <h5 class="card-title">¡Nueva Hamburguesa Ganadora!</h5>
-                <p class="card-text justify-self-top">Presentamos nuestra nueva creación galardonada: "La Mágica Deluxe".</p>
+                <p class="card-text justify-self-top">Presentamos nuestra nueva creación galardonada: "La Mágica
+                  Deluxe".</p>
                 <img src="img/burguer8.jpeg" class="img-fluid rounded" alt="Nueva hamburguesa">
               </div>
             </div>
-          
-          
+
+
             <div class="card text-white h-auto col-md-5">
               <div class="card-body h-100 d-flex flex-column justify-content-between m-0 p-0 py-3">
                 <h5 class="card-title">Parrilla</h5>
@@ -91,674 +97,806 @@
                   autentico.</p>
                 <img src="img/brasas.png" class="img-fluid rounded" alt="Local">
               </div>
-          
-          </div>
-        </div>
-      </div>
 
-    </div>
-  </section>
-
-  <!-- Sección Sobre Nosotros -->
-  <section id="sobre-nosotros" class="container py-5">
-    <div class="row">
-      <div class="col-md-6">
-        <h2>Sobre Magic's Burger</h2>
-        <p>Fundada en 2015, Magic's Burger nació de la pasión por crear hamburguesas únicas con ingredientes de la más
-          alta calidad. Nuestro chef, con más de 15 años de experiencia, ha creado recetas que deleitan a nuestros
-          clientes día tras día.</p>
-        <p>Utilizamos carne 100% de ternera gallega, pan artesano horneado diariamente y productos locales para
-          garantizar el mejor sabor en cada bocado.</p>
-      </div>
-      <div class="col-md-6">
-        <div class="row">
-          <div class="col-6 mb-3">
-            <img src="img/burguer1.PNG" class="img-fluid rounded" alt="Equipo">
-          </div>
-          <div class="col-6 mb-3">
-            <img src="img/burguer2.PNG" class="img-fluid rounded" alt="Local">
-          </div>
-          <div class="col-6">
-            <img src="img/burguer3.PNG" class="img-fluid rounded" alt="Ingredientes">
-          </div>
-          <div class="col-6">
-            <img src="img/burger4.jpeg" class="img-fluid rounded" alt="Preparación">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Sección de Noticias -->
-  <section id="blog" class="container py-5">
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Últimas Noticias</h2>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-4 mb-4">
-        <div class="card h-100">
-          <img src="img/burguer5.jpeg" class="card-img-top" alt="Noticia 1">
-          <div class="card-body">
-            <h5 class="card-title">Premio a la Mejor Burger 2024</h5>
-            <p class="card-text">Nuestra hamburguesa "Tifa" ha sido galardonada como la mejor hamburguesa artesanal de
-              la región.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card h-100">
-          <img src="img/burguer7.jpeg" class="card-img-top" alt="Noticia 2">
-          <div class="card-body">
-            <h5 class="card-title">Nuevas Opciones Veganas</h5>
-            <p class="card-text">Ampliamos nuestro menú con 3 nuevas opciones veganas para satisfacer a todos nuestros
-              clientes.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card h-100">
-          <img src="img/corte.png" class="card-img-top" alt="Noticia 3">
-          <div class="card-body">
-            <h5 class="card-title">Noche de Hamburguesas Especiales</h5>
-            <p class="card-text">Todos los jueves por la noche ofrecemos creaciones especiales del chef a precio
-              promocional.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Galería con Carrusel -->
-  <section id="galeria" class="container py-5">
-    <h2 class="text-center mb-4">Galería</h2>
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="d-flex justify-content-center">
-            <img src="img/burguer1.PNG" class="d-block img-fluid rounded-2 w-75 w-md-50" alt="Hamburguesa 1">
-          </div>
-          <div class="carousel-caption d-none d-sm-block bg-black bg-opacity-50 rounded py-2 w-50 my-0 mx-auto">
-            <h5 class="mb-1">Hamburguesa Clásica</h5>
-            <p class="mb-0">Una deliciosa combinación de carne fresca, queso y pan crujiente.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="d-flex justify-content-center">
-            <img src="img/burguer2.PNG" class="d-block img-fluid rounded-2 w-75 w-md-50" alt="Hamburguesa 2">
-          </div>
-          <div class="carousel-caption d-none d-sm-block bg-black bg-opacity-50 rounded py-2 w-50 my-0 mx-auto">
-            <h5 class="mb-1">Hamburguesa BBQ</h5>
-            <p class="mb-0">Disfruta de una hamburguesa con salsa BBQ casera.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="d-flex justify-content-center">
-            <img src="img/burguer3.PNG" class="d-block img-fluid rounded-2 w-75 w-md-50" alt="Hamburguesa 3">
-          </div>
-          <div class="carousel-caption d-none d-sm-block bg-black bg-opacity-50 rounded py-2 w-50 my-0 mx-auto">
-            <h5 class="mb-1">Hamburguesa Veggie</h5>
-            <p class="mb-0">Una opción deliciosa y saludable para los amantes de lo verde.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="d-flex justify-content-center">
-            <img src="img/burger4.jpeg" class="d-block img-fluid rounded-2 w-75 w-md-50" alt="Hamburguesa 4">
-          </div>
-          <div class="carousel-caption d-none d-sm-block bg-black bg-opacity-50 rounded py-2 w-50 my-0 mx-auto">
-            <h5 class="mb-1">Street Burger</h5>
-            <p class="mb-0">¿Te atreves con dos carnes?</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="d-flex justify-content-center">
-            <img src="img/burguer5.jpeg" class="d-block img-fluid rounded-2 w-75 w-md-50" alt="Hamburguesa 5">
-          </div>
-          <div class="carousel-caption d-none d-sm-block bg-black bg-opacity-50 rounded py-2 w-50 my-0 mx-auto">
-            <h5 class="mb-1">Tifa</h5>
-            <p class="mb-0">La cecina te quitará el sentido</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="d-flex justify-content-center">
-            <img src="img/burger6.jpeg" class="d-block img-fluid rounded-2 w-75 w-md-50" alt="Hamburguesa 6">
-          </div>
-          <div class="carousel-caption d-none d-sm-block bg-black bg-opacity-50 rounded py-2 w-50 my-0 mx-auto">
-            <h5 class="mb-1">Dulce Iniesta</h5>
-            <p class="mb-0">¿Unas palomitas en la burger?</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="d-flex justify-content-center">
-            <img src="img/burguer7.jpeg" class="d-block img-fluid rounded-2 w-75 w-md-50" alt="Hamburguesa 7">
-          </div>
-          <div class="carousel-caption d-none d-sm-block bg-black bg-opacity-50 rounded py-2 w-50 my-0 mx-auto">
-            <h5 class="mb-1">Kika</h5>
-            <p class="mb-0">También pensamos en los veganos :)</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="d-flex justify-content-center">
-            <img src="img/burguer8.jpeg" class="d-block img-fluid rounded-2 w-75 w-md-50" alt="Hamburguesa 8">
-          </div>
-          <div class="carousel-caption d-none d-sm-block bg-black bg-opacity-50 rounded py-2 w-50 my-0 mx-auto">
-            <h5 class="mb-1">Winner 2023</h5>
-            <p class="mb-0">La ganadora del campeonato</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="d-flex justify-content-center">
-            <img src="img/burguer9.jpeg" class="d-block img-fluid rounded-2 w-75 w-md-50" alt="Hamburguesa 9">
-          </div>
-          <div class="carousel-caption d-none d-sm-block bg-black bg-opacity-50 rounded py-2 w-50 my-0 mx-auto">
-            <h5 class="mb-1">Alpha</h5>
-            <p class="mb-0">¿Te atreves con algo dulce y a la vez salado?</p>
-          </div>
-        </div>
-      </div>
-      <!-- Botones para navegar -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon bg-dark bg-transparent p-3" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon bg-dark bg-transparent p-3" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </section>
-
-
-  <!-- Catálogo con tarjetas -->
-  <section id="menu" class="container py-5">
-    <h2 class="text-center">Menú</h2>
-    <div class="row text-center">
-      <div class="col-md-4 mb-4">
-        <div class="card h-100">
-          <img src="img/burguer1.PNG" class="card-img-top" alt="Hamburguesa clásica">
-          <div class="card-body">
-            <h5 class="card-title">Provocacion</h5>
-            <p class="card-text">La provocación de la salsa de lotus</p>
-            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#descripcionModal1">Ver Descripción</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card h-100">
-          <img src="img/burguer2.PNG" class="card-img-top" alt="Hamburguesa BBQ">
-          <div class="card-body">
-            <h5 class="card-title">Donald</h5>
-            <p class="card-text">Medallón de foie de pato..</p>
-            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#descripcionModal2">Ver Descripción</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card h-100">
-          <img src="img/burguer3.PNG" class="card-img-top" alt="Hamburguesa Veggie">
-          <div class="card-body">
-            <h5 class="card-title">Payoya</h5>
-            <p class="card-text">Para los amantes del queso payoyo..</p>
-            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#descripcionModal3">Ver Descripción</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card h-100">
-          <img src="img/burger4.jpeg" class="card-img-top" alt="Hamburguesa Veggie">
-          <div class="card-body">
-            <h5 class="card-title">Street burger</h5>
-            <p class="card-text">¿ Te atreves con dos carnes?</p>
-            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#descripcionModal4">Ver Descripción</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card h-100">
-          <img src="img/burguer5.jpeg" class="card-img-top" alt="Hamburguesa Veggie">
-          <div class="card-body">
-            <h5 class="card-title">Tifa</h5>
-            <p class="card-text">La cecina te quitara el sentido</p>
-            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#descripcionModal5">Ver Descripción</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card h-100">
-          <img src="img/burger6.jpeg" class="card-img-top" alt="Hamburguesa Veggie">
-          <div class="card-body">
-            <h5 class="card-title">Dulce iniesta</h5>
-            <p class="card-text">¿ Unas palomitas en la burger ?</p>
-            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#descripcionModal6">Ver Descripción</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card h-100">
-          <img src="img/burguer7.jpeg" class="card-img-top" alt="Hamburguesa Veggie">
-          <div class="card-body">
-            <h5 class="card-title">Kika</h5>
-            <p class="card-text">Tambien pensamos en los veganos :&rpar;</p>
-            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#descripcionModal7">Ver Descripción</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card h-100">
-          <img src="img/burguer8.jpeg" class="card-img-top" alt="Hamburguesa Veggie">
-          <div class="card-body">
-            <h5 class="card-title">Winner 2023</h5>
-            <p class="card-text">La ganadora del campeonato, te llevara a otra dimensión</p>
-            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#descripcionModal8">Ver Descripción</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card h-100">
-          <img src="img/burguer9.jpeg" class="card-img-top" alt="Hamburguesa Veggie">
-          <div class="card-body">
-            <h5 class="card-title">Alpha</h5>
-            <p class="card-text">¿Te atreves con algo dulce y a la vez salado?</p>
-            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#descripcionModal9">Ver Descripción</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Modales para las descripciones de las hamburguesas -->
-  <!-- Modal 1 - Provocacion -->
-  <div class="modal fade" id="descripcionModal1" tabindex="-1" aria-labelledby="descripcionModal1Label" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="descripcionModal1Label">Provocacion</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <img src="img/burguer1.PNG" class="img-fluid mb-3" alt="Provocacion">
-          <p>Una hamburguesa que te tentará con su irresistible salsa de lotus. Ingredientes:</p>
-          <ul>
-            <li>Carne de ternera gallega 200g</li>
-            <li>Salsa de lotus casera</li>
-            <li>Queso cheddar</li>
-            <li>Bacon crujiente</li>
-            <li>Pan brioche artesanal</li>
-          </ul>
-          <p class="fw-bold">Precio: 13,50€</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 2 - Donald -->
-  <div class="modal fade" id="descripcionModal2" tabindex="-1" aria-labelledby="descripcionModal2Label" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="descripcionModal2Label">Donald</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <img src="img/burguer2.PNG" class="img-fluid mb-3" alt="Donald">
-          <p>Una delicia para los paladares más exigentes con foie de pato. Ingredientes:</p>
-          <ul>
-            <li>Carne de ternera gallega 200g</li>
-            <li>Medallón de foie de pato</li>
-            <li>Cebolla caramelizada</li>
-            <li>Mermelada de manzana</li>
-            <li>Pan de cristal</li>
-          </ul>
-          <p class="fw-bold">Precio: 14,50€</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 3 - Payoya -->
-  <div class="modal fade" id="descripcionModal3" tabindex="-1" aria-labelledby="descripcionModal3Label" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="descripcionModal3Label">Payoya</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <img src="img/burguer3.PNG" class="img-fluid mb-3" alt="Payoya">
-          <p>El sabor único del queso payoyo en una hamburguesa. Ingredientes:</p>
-          <ul>
-            <li>Carne de ternera gallega 200g</li>
-            <li>Queso payoyo de la sierra</li>
-            <li>Pimientos asados</li>
-            <li>Rúcula fresca</li>
-            <li>Pan de espelta</li>
-          </ul>
-          <p class="fw-bold">Precio: 16,50€</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 4 - Street burger -->
-  <div class="modal fade" id="descripcionModal4" tabindex="-1" aria-labelledby="descripcionModal4Label" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="descripcionModal4Label">Street burger</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <img src="img/burger4.jpeg" class="img-fluid mb-3" alt="Street burger">
-          <p>Doble dosis de sabor para los más hambrientos. Ingredientes:</p>
-          <ul>
-            <li>Doble carne de ternera gallega (2x150g)</li>
-            <li>Doble queso americano</li>
-            <li>Bacon extra crujiente</li>
-            <li>Salsa especial de la casa</li>
-            <li>Pan brioche con sésamo</li>
-          </ul>
-          <p class="fw-bold">Precio: 15,50€</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 5 - Tifa -->
-  <div class="modal fade" id="descripcionModal5" tabindex="-1" aria-labelledby="descripcionModal5Label" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="descripcionModal5Label">Tifa</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <img src="img/burguer5.jpeg" class="img-fluid mb-3" alt="Tifa">
-          <p>La cecina te transportará a otro nivel de sabor. Ingredientes:</p>
-          <ul>
-            <li>Carne de ternera gallega 200g</li>
-            <li>Cecina de León D.O.</li>
-            <li>Queso de cabra curado</li>
-            <li>Mermelada de tomate</li>
-            <li>Pan rústico de centeno</li>
-          </ul>
-          <p class="fw-bold">Precio: 16,50€</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 6 - Dulce iniesta -->
-  <div class="modal fade" id="descripcionModal6" tabindex="-1" aria-labelledby="descripcionModal6Label" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="descripcionModal6Label">Dulce iniesta</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <img src="img/burger6.jpeg" class="img-fluid mb-3" alt="Dulce iniesta">
-          <p>Una combinación sorprendente de sabores dulces y salados. Ingredientes:</p>
-          <ul>
-            <li>Carne de ternera gallega 200g</li>
-            <li>Palomitas de maíz caramelizadas</li>
-            <li>Sirope de arce</li>
-            <li>Queso gouda</li>
-            <li>Pan de leche</li>
-          </ul>
-          <p class="fw-bold">Precio: 14,50€</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 7 - Kika -->
-  <div class="modal fade" id="descripcionModal7" tabindex="-1" aria-labelledby="descripcionModal7Label" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="descripcionModal7Label">Kika</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <img src="img/burguer7.jpeg" class="img-fluid mb-3" alt="Kika">
-          <p>Nuestra opción vegana más popular. Ingredientes:</p>
-          <ul>
-            <li>Hamburguesa de garbanzos y espinacas</li>
-            <li>Queso vegano</li>
-            <li>Tomate seco</li>
-            <li>Rúcula</li>
-            <li>Salsa de aguacate</li>
-            <li>Pan integral</li>
-          </ul>
-          <p class="fw-bold">Precio: 13,50€</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 8 - Winner 2023 -->
-  <div class="modal fade" id="descripcionModal8" tabindex="-1" aria-labelledby="descripcionModal8Label" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="descripcionModal8Label">Winner 2023</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <img src="img/burguer8.jpeg" class="img-fluid mb-3" alt="Winner 2023">
-          <p>La hamburguesa ganadora del campeonato 2023. Ingredientes:</p>
-          <ul>
-            <li>Doble carne de ternera gallega (2x150g)</li>
-            <li>Queso azul</li>
-            <li>Cebolla crispy</li>
-            <li>Peras al vino tinto</li>
-            <li>Salsa de nueces</li>
-            <li>Pan de cerveza artesanal</li>
-          </ul>
-          <p class="fw-bold">Precio: 17,50€</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 9 - Alpha -->
-  <div class="modal fade" id="descripcionModal9" tabindex="-1" aria-labelledby="descripcionModal9Label" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="descripcionModal9Label">Alpha</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <img src="img/burguer9.jpeg" class="img-fluid mb-3" alt="Alpha">
-          <p>El equilibrio perfecto entre dulce y salado. Ingredientes:</p>
-          <ul>
-            <li>Carne de ternera gallega 200g</li>
-            <li>Bacon glaseado con miel</li>
-            <li>Queso brie</li>
-            <li>Compota de manzana</li>
-            <li>Nueces caramelizadas</li>
-            <li>Pan de brioche con canela</li>
-          </ul>
-          <p class="fw-bold">Precio: 16,50€</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Tabla de Datos -->
-  <section id="tabla" class="container py-5 ">
-    <h2 class="text-center">Precios</h2>
-    <table class="table table-hover ">
-      <thead>
-        <tr>
-          <th scope="col">Producto</th>
-          <th scope="col">Precio</th>
-          <th scope="col">Disponible</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Provocacion</td>
-          <td>13,50€</td>
-          <td>50</td>
-        </tr>
-        <tr>
-          <td>Donald</td>
-          <td>14,50€</td>
-          <td>30</td>
-        </tr>
-        <tr>
-          <td>Payoya</td>
-          <td>16,50€</td>
-          <td>20</td>
-        </tr>
-        <tr>
-          <td>Payoya</td>
-          <td>16,50€</td>
-          <td>20</td>
-        </tr>
-        <tr>
-          <td>Payoya</td>
-          <td>16,50€</td>
-          <td>20</td>
-        </tr>
-        <tr>
-          <td>Payoya</td>
-          <td>16,50€</td>
-          <td>20</td>
-        </tr>
-        <tr>
-          <td>Payoya</td>
-          <td>16,50€</td>
-          <td>20</td>
-        </tr>
-        <tr>
-          <td>Payoya</td>
-          <td>16,50€</td>
-          <td>20</td>
-        </tr>
-        <tr>
-          <td>Payoya</td>
-          <td>16,50€</td>
-          <td>20</td>
-        </tr>
-      </tbody>
-
-      <tr>
-        <td colspan="2" class="text-first">Todos los precios incluyen IVA</td>
-        <td></td>
-      </tr>
-    </table>
-  </section>
-
-  <!-- Formulario de Inicio de Sesión -->
-  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="loginModalLabel">Iniciar sesión</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <form>
-            <div class="mb-3">
-              <label for="username" class="form-label">Usuario</label>
-              <input type="text" class="form-control" id="username" required>
             </div>
-            <div class="mb-3">
-              <label for="password" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" id="password" required>
-            </div>
-            <button type="submit" class="btn btn-primary">Iniciar sesión</button>
-          </form>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- Formulario Amplio -->
-  <section id="contacto" class="container py-5">
-    <h2 class="text-center">Contáctanos</h2>
-    <form>
-      <div class="mb-3">
-        <label for="name" class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="name" required>
       </div>
-      <div class="mb-3">
-        <label for="email" class="form-label">Correo electrónico</label>
-        <input type="email" class="form-control" id="email" required>
-      </div>
-      <div class="mb-3">
-        <label for="message" class="form-label">Mensaje</label>
-        <textarea class="form-control" id="message" rows="4" required></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary">Enviar</button>
-    </form>
-  </section>
+    </section>
 
-  <!-- Footer a varias columnas -->
-  <footer class=" text-white py-5">
-    <div class="container">
+    <!-- Sección Sobre Nosotros -->
+    <section id="sobre-nosotros" class="container py-5">
       <div class="row">
-        <div class="col-md-4">
-          <h5>Sobre Nosotros</h5>
-          <p>Somos una hamburguesería con pasión por el buen comer, ofreciendo productos frescos y deliciosos.</p>
+        <div class="col-md-6">
+          <h2>Sobre Magic's Burger</h2>
+          <p>Fundada en 2015, Magic's Burger nació de la pasión por crear hamburguesas únicas con ingredientes de la más
+            alta calidad. Nuestro chef, con más de 15 años de experiencia, ha creado recetas que deleitan a nuestros
+            clientes día tras día.</p>
+          <p>Utilizamos carne 100% de ternera gallega, pan artesano horneado diariamente y productos locales para
+            garantizar el mejor sabor en cada bocado.</p>
         </div>
-        <div class="col-md-4">
-          <h5>Enlaces Rápidos</h5>
-          <ul class="list-unstyled">
-            <li><a href="#home" class="text-white">Inicio</a></li>
-            <li><a href="#menu" class="text-white">Menú</a></li>
-            <li><a href="#contacto" class="text-white">Contacto</a></li>
-          </ul>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-6 mb-3">
+              <img src="img/burguer1.PNG" class="img-fluid rounded" alt="Equipo">
+            </div>
+            <div class="col-6 mb-3">
+              <img src="img/burguer2.PNG" class="img-fluid rounded" alt="Local">
+            </div>
+            <div class="col-6">
+              <img src="img/burguer3.PNG" class="img-fluid rounded" alt="Ingredientes">
+            </div>
+            <div class="col-6">
+              <img src="img/burger4.jpeg" class="img-fluid rounded" alt="Preparación">
+            </div>
+          </div>
         </div>
-        <div class="col-md-4">
-          <h5>Redes Sociales</h5>
-          <ul class="list-unstyled">
-            <li><a href="#" class="text-white">Facebook</a></li>
-            <li><a href="#" class="text-white">Instagram</a></li>
-            <li><a href="#" class="text-white">Twitter</a></li>
-          </ul>
+      </div>
+    </section>
+
+    <!-- Sección de Noticias -->
+    <section id="blog" class="container py-5">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Últimas Noticias</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="img/burguer5.jpeg" class="card-img-top" alt="Noticia 1">
+            <div class="card-body">
+              <h5 class="card-title">Premio a la Mejor Burger 2024</h5>
+              <p class="card-text">Nuestra hamburguesa "Tifa" ha sido galardonada como la mejor hamburguesa artesanal de
+                la región.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="img/burguer7.jpeg" class="card-img-top" alt="Noticia 2">
+            <div class="card-body">
+              <h5 class="card-title">Nuevas Opciones Veganas</h5>
+              <p class="card-text">Ampliamos nuestro menú con 3 nuevas opciones veganas para satisfacer a todos nuestros
+                clientes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="img/corte.png" class="card-img-top" alt="Noticia 3">
+            <div class="card-body">
+              <h5 class="card-title">Noche de Hamburguesas Especiales</h5>
+              <p class="card-text">Todos los jueves por la noche ofrecemos creaciones especiales del chef a precio
+                promocional.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galería con Carrusel -->
+    <section id="galeria" class="container py-5">
+      <h2 class="text-center mb-4">Galería</h2>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+              <img src="img/burguer1.PNG" class="d-block img-fluid rounded-2 w-75 w-md-50" alt="Hamburguesa 1">
+            </div>
+            <div class="carousel-caption d-none d-sm-block bg-black bg-opacity-50 rounded py-2 w-50 my-0 mx-auto">
+              <h5 class="mb-1">Hamburguesa Clásica</h5>
+              <p class="mb-0">Una deliciosa combinación de carne fresca, queso y pan crujiente.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <img src="img/burguer2.PNG" class="d-block img-fluid rounded-2 w-75 w-md-50" alt="Hamburguesa 2">
+            </div>
+            <div class="carousel-caption d-none d-sm-block bg-black bg-opacity-50 rounded py-2 w-50 my-0 mx-auto">
+              <h5 class="mb-1">Hamburguesa BBQ</h5>
+              <p class="mb-0">Disfruta de una hamburguesa con salsa BBQ casera.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <img src="img/burguer3.PNG" class="d-block img-fluid rounded-2 w-75 w-md-50" alt="Hamburguesa 3">
+            </div>
+            <div class="carousel-caption d-none d-sm-block bg-black bg-opacity-50 rounded py-2 w-50 my-0 mx-auto">
+              <h5 class="mb-1">Hamburguesa Veggie</h5>
+              <p class="mb-0">Una opción deliciosa y saludable para los amantes de lo verde.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <img src="img/burger4.jpeg" class="d-block img-fluid rounded-2 w-75 w-md-50" alt="Hamburguesa 4">
+            </div>
+            <div class="carousel-caption d-none d-sm-block bg-black bg-opacity-50 rounded py-2 w-50 my-0 mx-auto">
+              <h5 class="mb-1">Street Burger</h5>
+              <p class="mb-0">¿Te atreves con dos carnes?</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <img src="img/burguer5.jpeg" class="d-block img-fluid rounded-2 w-75 w-md-50" alt="Hamburguesa 5">
+            </div>
+            <div class="carousel-caption d-none d-sm-block bg-black bg-opacity-50 rounded py-2 w-50 my-0 mx-auto">
+              <h5 class="mb-1">Tifa</h5>
+              <p class="mb-0">La cecina te quitará el sentido</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <img src="img/burger6.jpeg" class="d-block img-fluid rounded-2 w-75 w-md-50" alt="Hamburguesa 6">
+            </div>
+            <div class="carousel-caption d-none d-sm-block bg-black bg-opacity-50 rounded py-2 w-50 my-0 mx-auto">
+              <h5 class="mb-1">Dulce Iniesta</h5>
+              <p class="mb-0">¿Unas palomitas en la burger?</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <img src="img/burguer7.jpeg" class="d-block img-fluid rounded-2 w-75 w-md-50" alt="Hamburguesa 7">
+            </div>
+            <div class="carousel-caption d-none d-sm-block bg-black bg-opacity-50 rounded py-2 w-50 my-0 mx-auto">
+              <h5 class="mb-1">Kika</h5>
+              <p class="mb-0">También pensamos en los veganos :)</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <img src="img/burguer8.jpeg" class="d-block img-fluid rounded-2 w-75 w-md-50" alt="Hamburguesa 8">
+            </div>
+            <div class="carousel-caption d-none d-sm-block bg-black bg-opacity-50 rounded py-2 w-50 my-0 mx-auto">
+              <h5 class="mb-1">Winner 2023</h5>
+              <p class="mb-0">La ganadora del campeonato</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <img src="img/burguer9.jpeg" class="d-block img-fluid rounded-2 w-75 w-md-50" alt="Hamburguesa 9">
+            </div>
+            <div class="carousel-caption d-none d-sm-block bg-black bg-opacity-50 rounded py-2 w-50 my-0 mx-auto">
+              <h5 class="mb-1">Alpha</h5>
+              <p class="mb-0">¿Te atreves con algo dulce y a la vez salado?</p>
+            </div>
+          </div>
+        </div>
+        <!-- Botones para navegar -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark bg-transparent p-3" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-dark bg-transparent p-3" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+
+    <!-- Catálogo con tarjetas -->
+    <section id="menu" class="container py-5">
+      <h2 class="text-center">Menú</h2>
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="img/burguer1.PNG" class="card-img-top" alt="Hamburguesa clásica">
+            <div class="card-body">
+              <h5 class="card-title">Provocacion</h5>
+              <p class="card-text">La provocación de la salsa de lotus</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#descripcionModal1">Ver
+                Descripción</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="img/burguer2.PNG" class="card-img-top" alt="Hamburguesa BBQ">
+            <div class="card-body">
+              <h5 class="card-title">Donald</h5>
+              <p class="card-text">Medallón de foie de pato..</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#descripcionModal2">Ver
+                Descripción</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="img/burguer3.PNG" class="card-img-top" alt="Hamburguesa Veggie">
+            <div class="card-body">
+              <h5 class="card-title">Payoya</h5>
+              <p class="card-text">Para los amantes del queso payoyo..</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#descripcionModal3">Ver
+                Descripción</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="img/burger4.jpeg" class="card-img-top" alt="Hamburguesa Veggie">
+            <div class="card-body">
+              <h5 class="card-title">Street burger</h5>
+              <p class="card-text">¿ Te atreves con dos carnes?</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#descripcionModal4">Ver
+                Descripción</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="img/burguer5.jpeg" class="card-img-top" alt="Hamburguesa Veggie">
+            <div class="card-body">
+              <h5 class="card-title">Tifa</h5>
+              <p class="card-text">La cecina te quitara el sentido</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#descripcionModal5">Ver
+                Descripción</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="img/burger6.jpeg" class="card-img-top" alt="Hamburguesa Veggie">
+            <div class="card-body">
+              <h5 class="card-title">Dulce iniesta</h5>
+              <p class="card-text">¿ Unas palomitas en la burger ?</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#descripcionModal6">Ver
+                Descripción</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="img/burguer7.jpeg" class="card-img-top" alt="Hamburguesa Veggie">
+            <div class="card-body">
+              <h5 class="card-title">Kika</h5>
+              <p class="card-text">Tambien pensamos en los veganos :&rpar;</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#descripcionModal7">Ver
+                Descripción</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="img/burguer8.jpeg" class="card-img-top" alt="Hamburguesa Veggie">
+            <div class="card-body">
+              <h5 class="card-title">Winner 2023</h5>
+              <p class="card-text">La ganadora del campeonato, te llevara a otra dimensión</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#descripcionModal8">Ver
+                Descripción</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="img/burguer9.jpeg" class="card-img-top" alt="Hamburguesa Veggie">
+            <div class="card-body">
+              <h5 class="card-title">Alpha</h5>
+              <p class="card-text">¿Te atreves con algo dulce y a la vez salado?</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#descripcionModal9">Ver
+                Descripción</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modales para las descripciones de las hamburguesas -->
+    <!-- Modal 1 - Provocacion -->
+    <div class="modal fade" id="descripcionModal1" tabindex="-1" aria-labelledby="descripcionModal1Label"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="descripcionModal1Label">Provocacion</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="img/burguer1.PNG" class="img-fluid mb-3" alt="Provocacion">
+            <p>Una hamburguesa que te tentará con su irresistible salsa de lotus. Ingredientes:</p>
+            <ul>
+              <li>Carne de ternera gallega 200g</li>
+              <li>Salsa de lotus casera</li>
+              <li>Queso cheddar</li>
+              <li>Bacon crujiente</li>
+              <li>Pan brioche artesanal</li>
+            </ul>
+            <p class="fw-bold">Precio: 13,50€</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
         </div>
       </div>
     </div>
-  </footer>
 
-  <!-- Scripts de Bootstrap -->
+    <!-- Modal 2 - Donald -->
+    <div class="modal fade" id="descripcionModal2" tabindex="-1" aria-labelledby="descripcionModal2Label"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="descripcionModal2Label">Donald</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="img/burguer2.PNG" class="img-fluid mb-3" alt="Donald">
+            <p>Una delicia para los paladares más exigentes con foie de pato. Ingredientes:</p>
+            <ul>
+              <li>Carne de ternera gallega 200g</li>
+              <li>Medallón de foie de pato</li>
+              <li>Cebolla caramelizada</li>
+              <li>Mermelada de manzana</li>
+              <li>Pan de cristal</li>
+            </ul>
+            <p class="fw-bold">Precio: 14,50€</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
-</div>
+    <!-- Modal 3 - Payoya -->
+    <div class="modal fade" id="descripcionModal3" tabindex="-1" aria-labelledby="descripcionModal3Label"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="descripcionModal3Label">Payoya</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="img/burguer3.PNG" class="img-fluid mb-3" alt="Payoya">
+            <p>El sabor único del queso payoyo en una hamburguesa. Ingredientes:</p>
+            <ul>
+              <li>Carne de ternera gallega 200g</li>
+              <li>Queso payoyo de la sierra</li>
+              <li>Pimientos asados</li>
+              <li>Rúcula fresca</li>
+              <li>Pan de espelta</li>
+            </ul>
+            <p class="fw-bold">Precio: 16,50€</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 4 - Street burger -->
+    <div class="modal fade" id="descripcionModal4" tabindex="-1" aria-labelledby="descripcionModal4Label"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="descripcionModal4Label">Street burger</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="img/burger4.jpeg" class="img-fluid mb-3" alt="Street burger">
+            <p>Doble dosis de sabor para los más hambrientos. Ingredientes:</p>
+            <ul>
+              <li>Doble carne de ternera gallega (2x150g)</li>
+              <li>Doble queso americano</li>
+              <li>Bacon extra crujiente</li>
+              <li>Salsa especial de la casa</li>
+              <li>Pan brioche con sésamo</li>
+            </ul>
+            <p class="fw-bold">Precio: 15,50€</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 5 - Tifa -->
+    <div class="modal fade" id="descripcionModal5" tabindex="-1" aria-labelledby="descripcionModal5Label"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="descripcionModal5Label">Tifa</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="img/burguer5.jpeg" class="img-fluid mb-3" alt="Tifa">
+            <p>La cecina te transportará a otro nivel de sabor. Ingredientes:</p>
+            <ul>
+              <li>Carne de ternera gallega 200g</li>
+              <li>Cecina de León D.O.</li>
+              <li>Queso de cabra curado</li>
+              <li>Mermelada de tomate</li>
+              <li>Pan rústico de centeno</li>
+            </ul>
+            <p class="fw-bold">Precio: 16,50€</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 6 - Dulce iniesta -->
+    <div class="modal fade" id="descripcionModal6" tabindex="-1" aria-labelledby="descripcionModal6Label"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="descripcionModal6Label">Dulce iniesta</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="img/burger6.jpeg" class="img-fluid mb-3" alt="Dulce iniesta">
+            <p>Una combinación sorprendente de sabores dulces y salados. Ingredientes:</p>
+            <ul>
+              <li>Carne de ternera gallega 200g</li>
+              <li>Palomitas de maíz caramelizadas</li>
+              <li>Sirope de arce</li>
+              <li>Queso gouda</li>
+              <li>Pan de leche</li>
+            </ul>
+            <p class="fw-bold">Precio: 14,50€</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 7 - Kika -->
+    <div class="modal fade" id="descripcionModal7" tabindex="-1" aria-labelledby="descripcionModal7Label"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="descripcionModal7Label">Kika</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="img/burguer7.jpeg" class="img-fluid mb-3" alt="Kika">
+            <p>Nuestra opción vegana más popular. Ingredientes:</p>
+            <ul>
+              <li>Hamburguesa de garbanzos y espinacas</li>
+              <li>Queso vegano</li>
+              <li>Tomate seco</li>
+              <li>Rúcula</li>
+              <li>Salsa de aguacate</li>
+              <li>Pan integral</li>
+            </ul>
+            <p class="fw-bold">Precio: 13,50€</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 8 - Winner 2023 -->
+    <div class="modal fade" id="descripcionModal8" tabindex="-1" aria-labelledby="descripcionModal8Label"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="descripcionModal8Label">Winner 2023</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="img/burguer8.jpeg" class="img-fluid mb-3" alt="Winner 2023">
+            <p>La hamburguesa ganadora del campeonato 2023. Ingredientes:</p>
+            <ul>
+              <li>Doble carne de ternera gallega (2x150g)</li>
+              <li>Queso azul</li>
+              <li>Cebolla crispy</li>
+              <li>Peras al vino tinto</li>
+              <li>Salsa de nueces</li>
+              <li>Pan de cerveza artesanal</li>
+            </ul>
+            <p class="fw-bold">Precio: 17,50€</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 9 - Alpha -->
+    <div class="modal fade" id="descripcionModal9" tabindex="-1" aria-labelledby="descripcionModal9Label"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="descripcionModal9Label">Alpha</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="img/burguer9.jpeg" class="img-fluid mb-3" alt="Alpha">
+            <p>El equilibrio perfecto entre dulce y salado. Ingredientes:</p>
+            <ul>
+              <li>Carne de ternera gallega 200g</li>
+              <li>Bacon glaseado con miel</li>
+              <li>Queso brie</li>
+              <li>Compota de manzana</li>
+              <li>Nueces caramelizadas</li>
+              <li>Pan de brioche con canela</li>
+            </ul>
+            <p class="fw-bold">Precio: 16,50€</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tabla de Datos -->
+    <section id="tabla" class="container py-5 ">
+      <h2 class="text-center">Precios</h2>
+      <table class="table table-hover ">
+        <thead>
+          <tr>
+            <th scope="col">Producto</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Disponible</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Provocacion</td>
+            <td>13,50€</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Donald</td>
+            <td>14,50€</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>Payoya</td>
+            <td>16,50€</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Payoya</td>
+            <td>16,50€</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Payoya</td>
+            <td>16,50€</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Payoya</td>
+            <td>16,50€</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Payoya</td>
+            <td>16,50€</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Payoya</td>
+            <td>16,50€</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Payoya</td>
+            <td>16,50€</td>
+            <td>20</td>
+          </tr>
+        </tbody>
+
+        <tr>
+          <td colspan="2" class="text-first">Todos los precios incluyen IVA</td>
+          <td></td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Formulario de Inicio de Sesión -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="loginModalLabel">Iniciar sesión</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="username" class="form-label">Usuario</label>
+                <input type="text" class="form-control" id="username" required>
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="password" required>
+              </div>
+              <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+              <button class=" btn btn-primary " type="button" data-bs-toggle="modal" data-bs-target="#myModal">
+                Crear cuenta
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content bg-light">
+
+          <div class="modal-header">
+            <h4 class="modal-title">Creación de cuenta</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <div class="modal-body">
+
+            <form action="" class="mt-0">
+
+              <div class="container-fluid">
+
+                <div class="row">
+                  <div class="mb-1 col-12 col-md-5">
+                    <label for="name" class="form-label">Nombre:</label>
+                    <input type="text" class="form-control p-2" required id="name" name="name">
+                  </div>
+
+                  <div class="mb-1 col-12 col-md-7">
+                    <label for="surname" class="form-label">Apellidos:</label>
+                    <input type="text" class="form-control p-2" id="surname" required name="surname">
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="mb-1 col-12 col-md-8">
+                    <label for="home" class="form-label">Domicilio:</label>
+                    <input type="text" class="form-control p-2" id="home" required placeholder="Nº XXX C/ XXX"
+                      name="home">
+                  </div>
+
+                  <div class="mb-1 col-12 col-md-4">
+                    <label for="city" class="form-label">Localidad:</label>
+                    <input type="text" class="form-control p-2" id="city" name="city">
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="mb-1 col-12">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control p-2" required id="email" placeholder="correo@email.com"
+                      name="email">
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="mb-1 col-12 col-md-6">
+                    <label for="pwd" class="form-label">Contraseña:</label>
+                    <input type="password" class="form-control p-2" id="pwd" required placeholder="************"
+                      name="pswd">
+                  </div>
+
+                  <div class="mb-1 col-12 col-md-6">
+                    <label for="pwd2" class="form-label">Repetir contraseña:</label>
+                    <input type="password" class="form-control p-2" id="pwd2" required placeholder="************"
+                      name="pswd2">
+                  </div>
+                </div>
+
+                <div class="row">
+                  <label class="form-label">Sexo:</label>
+
+                  <div class="form-check mb-1 col-12 col-md-3">
+                    <label class="form-check-label" for="hombre">
+                      <input class="form-check-input" id="hombre" type="radio" name="sex" value="H">
+                      Hombre
+                    </label>
+                  </div>
+
+                  <div class="form-check mb-1 col-12 col-md-3">
+                    <label class="form-check-label" for="mujer">
+                      <input class="form-check-input" type="radio" id="mujer" name="sex" value="M">
+                      Mujer
+                    </label>
+                  </div>
+
+                  <div class="form-check mb-1 col-12 col-md-5">
+                    <label class="form-check-label" for="noindicado">
+                      <input class="form-check-input" type="radio" id="noindicado" name="sex" value="N"> No especificado
+                    </label>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="my-1">
+                    <label for="comment">Observaciones:</label>
+                    <textarea class="form-control" rows="2" id="comment" name="text"
+                      placeholder="Escriba aquí..."></textarea>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-6">
+                    <button type="reset" class=" btn btn-primary ">Limpiar
+                      formulario</button>
+                  </div>
+
+                  <div class="col-6">
+                    <button type=" submit" class=" btn btn-primary " data-bs-dismiss="modal">Crear cuenta</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Formulario Amplio -->
+
+    <section id="contacto" class="container py-5">
+      <h2 class="text-center">Contáctanos</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Correo electrónico</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Footer a varias columnas -->
+    <footer class=" text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Sobre Nosotros</h5>
+            <p>Somos una hamburguesería con pasión por el buen comer, ofreciendo productos frescos y deliciosos.</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Enlaces Rápidos</h5>
+            <ul class="list-unstyled">
+              <li><a href="#home" class="text-white">Inicio</a></li>
+              <li><a href="#menu" class="text-white">Menú</a></li>
+              <li><a href="#contacto" class="text-white">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Redes Sociales</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-white">Facebook</a></li>
+              <li><a href="#" class="text-white">Instagram</a></li>
+              <li><a href="#" class="text-white">Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    
+
+  </div>
 
 </body>
 
